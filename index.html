@@ -442,7 +442,7 @@ window.addEventListener('scroll',function(){var g=document.querySelector('.hero-
 // WhatsApp quote
 function sendQuote(btn){
   var f=btn.closest('.qform'),i=f.querySelectorAll('input,select');
-  var msg=encodeURIComponent('Hi The Soft Grid! 👋\n\nQuote Request:\nName: '+(i[0].value||'–')+'\nCompany: '+(i[1].value||'–')+'\nPhone: '+(i[2].value||'–')+'\nKit: '+i[3].value+'\nQty: '+(i[4].value||'–')+'\n\nPlease share pricing. Thank you!');
+  var msg=encodeURIComponent('Hi The Soft Grid!\n\nQuote Request:\nName: '+(i[0].value||'–')+'\nCompany: '+(i[1].value||'–')+'\nPhone: '+(i[2].value||'–')+'\nKit: '+i[3].value+'\nQty: '+(i[4].value||'–')+'\n\nPlease share pricing. Thank you!');
   window.open('https://wa.me/918285862455?text='+msg,'_blank');
 }
 </script>
